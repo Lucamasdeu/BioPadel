@@ -4,9 +4,7 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Reservas — BioPadel</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet"/>
+
 <style>
   :root {
     --green: #1a3d2b;
@@ -27,7 +25,7 @@
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
-    font-family: 'DM Sans', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     background: var(--bg);
     color: var(--text);
     min-height: 100vh;
@@ -67,7 +65,7 @@
     font-size: 16px;
   }
   .logo-text {
-    font-family: 'DM Serif Display', serif;
+    font-family: Georgia, serif;
     font-size: 20px;
     letter-spacing: -0.3px;
   }
@@ -92,7 +90,7 @@
     font-size: 13px;
     font-weight: 500;
     cursor: pointer;
-    font-family: 'DM Sans', sans-serif;
+    
     transition: all 0.2s;
   }
   .nav-tab.active {
@@ -269,7 +267,7 @@
     border-radius: var(--radius-sm);
     font-size: 11px;
     cursor: pointer;
-    font-family: 'DM Sans', sans-serif;
+    
     font-weight: 500;
     transition: all 0.15s;
     background: #f0fdf4;
@@ -316,7 +314,7 @@
     border-radius: var(--radius-sm);
     padding: 10px 12px;
     font-size: 14px;
-    font-family: 'DM Sans', sans-serif;
+    
     outline: none;
     background: var(--bg);
     color: var(--text);
@@ -343,7 +341,7 @@
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
-    font-family: 'DM Sans', sans-serif;
+    
     transition: all 0.2s;
     display: flex;
     align-items: center;
@@ -378,7 +376,7 @@
     font-size: 26px;
     margin: 0 auto 16px;
   }
-  .success-title { font-family: 'DM Serif Display', serif; font-size: 22px; color: var(--green); margin-bottom: 6px; }
+  .success-title { font-family: Georgia, serif; font-size: 22px; color: var(--green); margin-bottom: 6px; }
   .success-detail { font-size: 13px; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px; }
   .notif-row { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
   .notif-btn {
@@ -389,7 +387,7 @@
     font-size: 13px;
     font-weight: 500;
     cursor: pointer;
-    font-family: 'DM Sans', sans-serif;
+    
     display: flex;
     align-items: center;
     gap: 6px;
@@ -428,7 +426,7 @@
     border-radius: var(--radius-sm);
     padding: 8px 12px;
     font-size: 13px;
-    font-family: 'DM Sans', sans-serif;
+    
     background: var(--card);
     color: var(--text);
     outline: none;
@@ -442,7 +440,7 @@
     background: none;
     font-size: 13px;
     cursor: pointer;
-    font-family: 'DM Sans', sans-serif;
+    
     color: var(--text-muted);
   }
   .clear-btn:hover { border-color: var(--green-mid); color: var(--green); }
@@ -527,7 +525,7 @@
     justify-content: space-between;
     gap: 16px;
   }
-  .hero-title { font-family: 'DM Serif Display', serif; font-size: 26px; margin-bottom: 4px; }
+  .hero-title { font-family: Georgia, serif; font-size: 26px; margin-bottom: 4px; }
   .hero-sub { font-size: 14px; opacity: 0.8; }
   .hero-pills { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
   .hero-pill {
